@@ -1,12 +1,15 @@
 import './App.css';
+import Parent from './Hooks/useContex/Parent';
+import CleanUp from './Hooks/useEffectHook/CleanUp';
 import UseEffect from './Hooks/useEffectHook/UseEffect';
-// import UseState from './Hooks/useStateHook/useState';
 
 function App() {
   return (
     <div className="App">
       {/* <UseState/> */}
-      <UseEffect/>
+      {/* <UseEffect/> */}
+      {/* <CleanUp/> */}
+      <Parent/>
     </div>
   );
 }
